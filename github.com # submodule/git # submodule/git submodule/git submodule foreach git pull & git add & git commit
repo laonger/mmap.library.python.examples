@@ -1,0 +1,14 @@
+#!/bin/sh
+
+img=$(find "$(git rev-parse --show-toplevel)" -name git-32.png ! -path .git)
+cd "$(gitroot)"
+
+git submodule foreach git reset --hard
+git submodule foreach git clean -xdf
+git submodule foreach git pull
+git add -A
+git commit -m "git submodule foreach git pull"
+
+afplay /System/Library/Sounds/Glass.aiff 2> /dev/null
+growlnotify -t "git submodule foreach git pull" -m "$(userpath)" --image "$img" 2> /dev/null
+

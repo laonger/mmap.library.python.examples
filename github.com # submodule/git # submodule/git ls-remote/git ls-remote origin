@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd "$(gitroot)"
+git ls-remote origin

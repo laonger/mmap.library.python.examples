@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd "$(gitroot)"
+grep path .gitmodules | sed 's/.*= //'

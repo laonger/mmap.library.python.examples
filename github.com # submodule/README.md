@@ -1,0 +1,1 @@
+git submodule add -f git@github.com:cancerhermit/github.submodule.git "github.com # submodule"

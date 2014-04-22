@@ -1,0 +1,9 @@
+[submodule "github.com"]
+	path = "github.com # submodule"
+	url = git@github.com:cancerhermit/github.submodule.git
+[submodule "git"]
+	path = "git # submodule"
+	url = git@github.com:cancerhermit/git.submodule.git
+[submodule "automation.py"]
+	path = automation.py
+	url = git@github.com:cancerhermit/automation.py.submodule.git

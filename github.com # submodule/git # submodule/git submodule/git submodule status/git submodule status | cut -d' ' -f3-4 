@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd "$(gitroot)"
+git submodule status | cut -d' ' -f3-4 
