@@ -1,6 +1,9 @@
 [submodule "git # submodule"]
 	path = "git # submodule"
-	url = git@github.com:cancerhermit/git.submodule.git
+	url = https://github.com/cancerhermit/git.submodule.git
 [submodule "github.com # submodule"]
 	path = "github.com # submodule"
-	url = git@github.com:cancerhermit/github.submodule.git
+	url = https://github.com/cancerhermit/github.submodule.git
+[submodule "gh-pages # submodule"]
+	path = "gh-pages # submodule"
+	url = https://github.com/cancerhermit/gh-pages.submodule.git

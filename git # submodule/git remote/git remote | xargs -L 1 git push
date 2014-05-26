@@ -1,4 +1,0 @@
-#!/bin/sh
-
-cd "$(gitroot)"
-git remote | xargs -L 1 git push

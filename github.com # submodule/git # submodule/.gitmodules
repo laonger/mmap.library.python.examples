@@ -1,6 +1,0 @@
-[submodule "github.com"]
-	path = "github.com # submodule"
-	url = git@github.com:cancerhermit/github.submodule.git
-[submodule "git"]
-	path = git
-	url = git@github.com:cancerhermit/git.submodule.git

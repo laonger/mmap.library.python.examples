@@ -1,5 +1,0 @@
-#!/bin/sh
-
-cd "$(gitroot)"
-
-git commit -m "init"
