@@ -7,3 +7,6 @@
 [submodule "gh-pages # submodule"]
 	path = "gh-pages # submodule"
 	url = https://github.com/cancerhermit/gh-pages.submodule.git
+[submodule "README # submodule"]
+	path = "README # submodule"
+	url = https://github.com/cancerhermit/README.submodule.git
